@@ -1,8 +1,25 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "boilerplate-ecs"
+  name: gitops
+  description: "Criando serviço gitops"
+  labels:
+    system: web-apps
+  tags:
+    - javascript
+    - react
+  links:
+    - url: https://github.com/ElananRodrigues/gitops
+      title: Backstage Sample Service GitHub
+      icon: code
+  annotations:
+    opsgenie.com/component-selector: 'tag:"service:gitops"'
+    jenkins.io/github-folder: 'ElananRodrigues/gitops'
+    fossa.io/project-name: backstage-sample-service
+    goharbor.io/repository-slug: 'ElananRodrigues/gitops'
+    github.com/project-slug: 'ElananRodrigues/gitops'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: user:guest
   lifecycle: experimental
+  owner: "group:default/guests"
