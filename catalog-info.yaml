@@ -18,6 +18,10 @@ metadata:
     fossa.io/project-name: backstage-sample-service
     goharbor.io/repository-slug: 'ElananRodrigues/gitops'
     github.com/project-slug: 'ElananRodrigues/gitops'
+    github.com/owner: 'ElananRodrigues'
+    github.com/repo-slug: 'gitops'
+    github.com/branch: 'main'
+    github.com/pull-requests: 'true'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
