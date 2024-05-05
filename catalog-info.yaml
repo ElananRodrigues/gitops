@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "cms-product"
+  name: "boilerplate-ecs"
 spec:
   type: service
   owner: user:guest
