@@ -1,7 +1,7 @@
 {
     "environment": "staging",
-    "cluster_name": "STG-Teste",
-    "service_name": "boilerplate-ecs",
+    "cluster_name": "staging",
+    "service_name": "teste-repo",
     "enable_terraform": "false",
     "terraform": {
         "destroy": "false"

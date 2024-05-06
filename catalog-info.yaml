@@ -6,8 +6,8 @@ metadata:
   labels:
     system: web-apps
   tags:
-    - javascript
-    - react
+    - terraform
+    - gitops
   links:
     - url: https://github.com/ElananRodrigues/gitops
       title: Backstage Sample Service GitHub
@@ -18,10 +18,6 @@ metadata:
     fossa.io/project-name: backstage-sample-service
     goharbor.io/repository-slug: 'ElananRodrigues/gitops'
     github.com/project-slug: 'ElananRodrigues/gitops'
-    github.com/owner: 'ElananRodrigues'
-    github.com/repo-slug: 'gitops'
-    github.com/branch: 'main'
-    github.com/pull-requests: 'true'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
