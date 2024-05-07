@@ -12,7 +12,7 @@ terraform {
   }
   backend "s3" {
     bucket = "hype-ecs-terraform-state"
-    key    = "services-ecs/development/teste-repo/terraform.tfstate"
+    key    = "services-ecs/staging/teste-repo/terraform.tfstate"
     region = "us-east-1"
   }
 }
