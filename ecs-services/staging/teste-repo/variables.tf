@@ -5,7 +5,7 @@ variable "aws_provider_region" {
 
 variable "aws_ecs_service_cluster_name" {
   type    = string
-  default = "staging"
+  default = "development"
 }
 
 variable "default_name" {
