@@ -1,6 +1,6 @@
 {
     "environment": "staging",
-    "cluster_name": "staging",
+    "cluster_name": "development",
     "service_name": "teste-repo",
     "enable_terraform": "false",
     "terraform": {
