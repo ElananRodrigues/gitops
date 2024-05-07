@@ -1,6 +1,6 @@
 {
-    "environment": "development",
-    "cluster_name": "cluster-ecs-tutorial",
+    "environment": "staging",
+    "cluster_name": "stg-ecs",
     "service_name": "teste-repo",
     "enable_terraform": "false",
     "terraform": {
