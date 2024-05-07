@@ -1,5 +1,5 @@
 {
-    "environment": "",
+    "environment": "staging",
     "cluster_name": "cluster-ecs-tutorial",
     "service_name": "teste-repo",
     "enable_terraform": "false",
