@@ -79,10 +79,10 @@ resource "aws_ecs_service" "app_service" {
   ]
 }
 
-variable "aws_route53_zone_id" {
-  description = "AWS Route 53 Zone ID"
-  default = ""
-}
+# variable "aws_route53_zone_id" {
+#   description = "AWS Route 53 Zone ID"
+#   default = ""
+# }
 
 # # Route 53
 # resource "aws_route53_record" "app_route53" {
