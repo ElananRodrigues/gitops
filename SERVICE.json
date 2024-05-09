@@ -4,6 +4,6 @@
     "service_name": "teste-repo",
     "enable_terraform": "false",
     "terraform": {
-        "destroy": "true"
+        "destroy": "false"
     }
 }
