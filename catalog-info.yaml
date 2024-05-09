@@ -9,15 +9,15 @@ metadata:
     - terraform
     - gitops
   links:
-    - url: https://github.com//gitops
+    - url: https://github.com/github.com?owner=ElananRodrigues&repo=gitops/gitops
       title: Backstage Sample Service GitHub
       icon: code
   annotations:
     opsgenie.com/component-selector: 'tag:"service:gitops"'
-    jenkins.io/github-folder: '/gitops'
+    jenkins.io/github-folder: 'github.com?owner=ElananRodrigues&repo=gitops/gitops'
     fossa.io/project-name: backstage-sample-service
-    goharbor.io/repository-slug: '/gitops'
-    github.com/project-slug: '/gitops'
+    goharbor.io/repository-slug: 'github.com?owner=ElananRodrigues&repo=gitops/gitops'
+    github.com/project-slug: 'github.com?owner=ElananRodrigues&repo=gitops/gitops'
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
