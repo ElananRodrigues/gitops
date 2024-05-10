@@ -5,7 +5,7 @@ variable "aws_provider_region" {
 
 variable "aws_ecs_service_cluster_name" {
   type    = string
-  default = "cluster-ecs-tutorial-development"
+  default = "cluster-ecs-product-development"
 }
 
 variable "default_name" {

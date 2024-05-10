@@ -1,6 +1,6 @@
 {
     "environment": "development",
-    "cluster_name": "cluster-ecs-tutorial",
+    "cluster_name": "cluster-ecs-product",
     "service_name": "teste-repo",
     "enable_terraform": "false",
     "terraform": {
